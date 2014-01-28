@@ -29,7 +29,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#eff1f5</string>
+				<string>#ededed</string>
 				<key>caret</key>
 				<string>#4f5b66</string>
 				<key>foreground</key>
@@ -37,9 +37,9 @@
 				<key>invisibles</key>
 				<string>#dfe1e8</string>
 				<key>lineHighlight</key>
-				<string>#dfe1e8</string>
+				<string>#f9f9f9</string>
 				<key>selection</key>
-				<string>#dfe1e8</string>
+				<string>#ffffff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -72,7 +72,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#4f5b66</string>
+				<string>#999999</string>
 			</dict>
 		</dict>
 		<dict>
@@ -94,7 +94,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#4f5b66</string>
+				<string>#6474B5</string>
 			</dict>
 		</dict>
 		<dict>
@@ -127,7 +127,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#8fa1b3</string>
+				<string>#6474B5</string>
 			</dict>
 		</dict>
 		<dict>
@@ -167,7 +167,7 @@
 			<key>name</key>
 			<string>Storage</string>
 			<key>scope</key>
-			<string>storage</string>
+			<string>storage, meta.structure.dictionary.key</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -182,7 +182,18 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#96b5b4</string>
+				<string>#6474B5</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Dictionary Support</string>
+			<key>scope</key>
+			<string>meta.structure.dictionary</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#f2f2f2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -193,7 +204,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#a3be8c</string>
+				<string>#489C49</string>
+				<key>background</key>
+				<string>#f1f2f0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -498,9 +511,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#bf616a</string>
+				<string>#ffc13a</string>
 				<key>foreground</key>
-				<string>#eff1f5</string>
+				<string>#ef1111</string>
 			</dict>
 		</dict>
 	</array>
